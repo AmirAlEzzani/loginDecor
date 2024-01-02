@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("https://i.ebayimg.com/images/g/gVYAAOSwNSxUz8Um/s-l1200.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 200px;
+    background-color: rgba(255,255,255,.6);
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+
+.nav,
+.nav .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    justify-content: space-between;
+}
+
+a, li {
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
